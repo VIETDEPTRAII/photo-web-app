@@ -1,2 +1,14 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+.jumbotron {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-image: image-url('banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mb-47px {
+  margin-bottom: 47px;
+}
